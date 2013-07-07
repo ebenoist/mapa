@@ -15,3 +15,11 @@ Mapa will serve JSON data from [openpaths](http://openpaths.cc) as a slippery ma
 5. All [elixir](http://elixir-lang.org/) backend.
 6. All JS (probably [backbone](http://backbonejs.org/)) frontend.
 7. Learn, a lot.
+
+## Open Questions
+---
+1. How do you deploy dynamo? Is there something capistrano like? Is it not unlike deploying a WAR to tomcat? What is the erlang daemon? nginx -> dynamo?!
+2. Can dynamo be used with HAML? Is there a HAML interpreter?
+3. Do I need to build an interface for mongo?
+
+

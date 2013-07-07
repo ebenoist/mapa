@@ -1,10 +1,13 @@
 # Mapa
 ---
-	ETIMOLOGÍA Elisión (s. xvi) de mapa (mundi), préstamo (s. xvi) del latín mappa (mundi) ‘mapa (del mundo)’; compuesto de mappa ‘pañuelo’, ‘servilleta’, por el lienzo que se empleó antiguamente para hacer mapas, y mundi ‘del mundo’.
+**ETIMOLOGÍA** Elisión (s. xvi) de mapa (mundi), préstamo (s. xvi) del latín mappa (mundi) ‘mapa (del mundo)’; compuesto de mappa ‘pañuelo’, ‘servilleta’, por el lienzo que se empleó antiguamente para hacer mapas, y mundi ‘del mundo’.
 
+# So, what is it, really?
+---
 Mapa will serve JSON data from [openpaths](http://openpaths.cc) as a slippery map.
 
 ## Goals
+---
 1. Import data from an existing openpaths dataset.
 2. Store data in mongo as [GeoJSON](http://geojson.org/).
 3. Display dataset via a RESTful API.

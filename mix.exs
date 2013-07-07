@@ -18,7 +18,8 @@ defmodule Mapa.Mixfile do
   end
 
   defp deps do
-    [ { :cowboy, %r(.*), github: "extend/cowboy" },
-      { :dynamo, "0.1.0.dev", github: "elixir-lang/dynamo" } ]
+    [{ :cowboy, %r(.*), github: "extend/cowboy" },
+      { :dynamo, "0.1.0.dev", github: "elixir-lang/dynamo" },
+      {:jsonex,"2.0",[github: "marcelog/jsonex", tag: "2.0"]}]
   end
 end
